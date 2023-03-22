@@ -1,0 +1,240 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.div-navbar{
+    background-color:rgb(11, 48, 60);
+    color:beige; 
+    height: 10vh; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.title-navbar{
+    padding: 10px; margin: 8px; 
+}
+
+.menu-navbar{
+    display: flex;  
+    align-items: center; 
+    justify-content: right;
+}
+
+.a-menu{
+    color: beige; text-decoration: none;
+}
+
+.li-menu{
+    list-style-type: none; 
+    padding: 10px; margin: 8px; 
+    font-weight: 600;
+}
+
+.li-menu:hover{
+    background-color:  rgb(142, 13, 43);
+    transition: 0.25s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 8px;
+}
+
+.div-content{
+    background-color:rgb(11, 48, 60);
+    height: 90vh;
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+}
+
+.div-content-1{
+    width: 40%;
+    background-color: rgb(142, 13, 43);
+    display: flex;
+}
+
+.div-img{
+    width: 95%; height: 90%;
+    position: absolute;
+    top: 100px;
+    
+}
+
+.div-content-2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.div-datadiri{
+    color: white;
+    background-color: rgb(7, 30, 37);
+    border-style:solid;
+    border-color: rgb(142, 13, 43) ;
+    border-radius: 10%;
+    text-align: justify;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 20%;
+    
+}
+
+.div-navbar-2{
+    width: 100%; height: 10vh;
+    background-color:rgb(11, 48, 60);
+}
+
+.div-content2{
+    background-color:rgb(11, 48, 60);
+    height: 90vh;
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+}
+
+.div-content-3{
+    width: 65%;
+    background-color: rgb(11, 48, 60) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-content-4{
+    width: 35%;
+    background-color:rgb(142, 13, 43) ;
+    
+}
+
+.div-riwayatpendidikan{
+    width: fit-content; height:fit-content;
+    color: white;
+    text-align: justify;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5px;
+    font-size: 20px;
+    background-color: rgb(7, 30, 37);;
+}
+
+.pend-1{
+    width: 380px; height: 30px;
+    margin: 30px; padding: 10px;
+    display: flex; flex-direction: row; justify-content:space-between; align-items: center;
+    color: white; border-radius: 5%; border-style: solid; border-color: rgb(142, 13, 43);
+    position: absolute; top: 1010px; left: 90px;
+    background-color: rgb(7, 30, 37);
+}
+
+.pend-2{
+    width: 380px; height: 30px;
+    margin: 30px; padding: 10px;
+    display: flex; flex-direction: row; justify-content:space-between; align-items: center;
+    color: white; border-radius: 5%; border-style: solid; border-color: rgb(142, 13, 43);
+    position: absolute; top: 930px; left: 90px;
+    background-color: rgb(7, 30, 37);
+}
+
+.pend-3{
+    width: 490px; height: 30px;
+    margin: 30px; padding: 10px;
+    display: flex; flex-direction: row; justify-content:space-between; align-items: center;
+    color: white; border-radius: 5%; border-style: solid; border-color: rgb(142, 13, 43);
+    position: absolute; top: 850px; left: 90px;
+    background-color: rgb(7, 30, 37);
+}
+
+.lingkaran-2{
+    height: 100px; width: 100px;
+    background-color: white; border-radius: 100%;
+    position: absolute; top: 720px; left: 1125px;
+}
+
+.div-img-2{
+    width: 32%; height: 75%;
+    position: absolute;
+    top: 760px;
+    left: 780px;
+}
+
+.segitiga-2{
+    height: 0px; width: 0px;
+    border-bottom:solid 120px white;
+	border-left:solid 80px transparent;
+	border-right:solid 80px transparent;
+    display: flex;
+    position: absolute;
+    top: 1170px;
+    left: 700px;
+}
+
+.lingkaran-3{
+    height: 80px; width: 80px;
+    background-color: white; border-radius: 100%;
+    position: absolute; top: 680px; left: 20px;
+}
+
+.lingkaran-4{
+    height: 80px; width: 80px;
+    background-color: rgb(0, 0, 0); border-radius: 100%;
+    position: absolute; top: 680px; left: 60px;
+}
+
+.lingkaran-5{
+    height: 30px; width: 30px;
+    background-color: white; border-radius: 100%;
+    position: absolute; top: 70px; left: 550px;
+}
+
+.lingkaran-6{
+    height: 30px; width: 30px;
+    background-color: rgb(142, 13, 43); border-radius: 100%;
+    position: absolute; top: 70px; left: 580px;
+}
+
+.lingkaran-7{
+    height: 30px; width: 30px;
+    background-color: black; border-radius: 100%;
+    position: absolute; top: 70px; left: 610px;
+}
+
+.persegipanjang{
+    height: 205px; width: 3px; background-color: white;
+    position: absolute; top: 165px; left: 464px;
+}
+
+.persegipanjang-2{
+    height: 205px; width: 3px; background-color: black;
+    position: absolute; top: 370px; left: 464px;
+}
+
+.kotak-1{
+    width: 35%;
+    background-color:rgb(142, 13, 43);
+}
+
+.kotak-2{
+    width: 65%;
+}
+
+.persegipanjang-3{
+    height: 430px; width: 3px; background-color: white;
+    position: absolute; top: 1295px; left :1020px;
+}
+
+.persegipanjang-4{
+    height: 3px; width: 600px; background-color: white;
+    position: absolute; top: 1870px;;
+}
